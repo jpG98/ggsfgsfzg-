@@ -1,0 +1,54 @@
+.preta{
+    background: #1e373be0;
+}
+
+#cavalo{
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    animation: cavalo 20s infinite;
+   
+}
+.nome{
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 420px;
+    left: 5px;
+    border-radius: 30px;
+    background-color: rgb(209, 233, 104);
+}
+.nome1{
+    position: absolute;
+    width: 73px;
+    height: 15px;
+    top: 12px;
+    left: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+}
+
+@keyframes cavalo{
+    0%{top: 10px; left: 60px;}
+    6.25%{top: 10px; left: 110px;}
+    12.5%{top: 115px; left: 110px;}
+    18.75%{top:115px; left:160px;}
+    25%{top: 215px; left: 160px;}
+    31.25%{top: 215px; left: 210px;}
+    37.5%{top: 315px; left: 210px;}
+    43.75%{top: 362px; left: 210px;}
+    50%{top: 362px; left: 310px;}
+    56.25%{top: 362px; left: 210px;}
+    62.5%{top: 315px; left: 210px;}
+    68.75%{top: 215px; left: 210px;}
+    75%{top: 215px; left: 160px;}
+    81.25%{top:115px; left:160px;}
+    87.5%{top: 115px; left: 110px;}
+    93.75%{top: 10px; left: 110px;}
+    100%{top: 10px; left: 60px;}
+
+}
